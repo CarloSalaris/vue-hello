@@ -1,0 +1,54 @@
+/***************
+    GENERAL
+***************/
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    color: antiquewhite;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+
+/***************
+    STRUCTURE
+***************/
+
+#app {
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+#wrapper {
+    height: 100%;
+    padding: 20vh 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/***************
+    UTILITIES
+***************/
