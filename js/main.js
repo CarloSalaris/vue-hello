@@ -8,7 +8,9 @@ const{createApp} = Vue
 createApp({
     data(){
         return {
-            message:'Hello World!'
+            message:'Hello World!',
+            imageSrc:'img/clay-banks-8q6e5hu3Ilc-unsplash.jpg',
+            imageDescription:'image from Clay Banks (unsplash)'
         }
     }
 }).mount("#app")
