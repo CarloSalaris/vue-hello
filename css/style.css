@@ -26,6 +26,10 @@ button {
     font-weight: 700;
 }
 
+button,
+img {
+    cursor: pointer;
+}
 
 /***************
     STRUCTURE
