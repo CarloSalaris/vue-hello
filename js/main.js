@@ -25,5 +25,8 @@ createApp({
                 this.HideShowDecl = 'HIDE';
             }
         }
+    },
+    mounted() {
+        console.log("ho caricato l'app");
     }
 }).mount("#app")
