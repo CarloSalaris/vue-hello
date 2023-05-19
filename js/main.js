@@ -17,12 +17,13 @@ createApp({
     },
     methods: {
         toggleHello() {
-            if (this.isHidden === false) {
-                this.HideShowDecl = 'SHOW';
-        } else {
-            this.HideShowDecl = 'HIDE';
-        }
             this.isHidden = !this.isHidden;
+
+            if (this.isHidden === true) {
+                this.HideShowDecl = 'SHOW';
+            } else {
+                this.HideShowDecl = 'HIDE';
+            }
         }
     }
 }).mount("#app")
